@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navFavourites"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SpellsFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/favouritesToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_toolbar"
+            app:title="Spells"
+            app:titleTextColor="#424242">
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/absorbElements"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/custom_button_3"
+            android:drawableRight="@drawable/ic_absorb_elements"
+            android:gravity="start|center"
+            android:paddingLeft="10dp"
+            android:text="Absorb Elements"
+            android:textAllCaps="false"
+            android:textColor="#d50000"
+            android:textSize="18sp" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/animalFriendship"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/custom_button_3"
+            android:drawableRight="@drawable/ic_animal_friendship"
+            android:gravity="start|center"
+            android:paddingLeft="10dp"
+            android:text="Animal Friendship"
+            android:textAllCaps="false"
+            android:textColor="#953D22"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/animateDead"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="240dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/custom_button_3"
+            android:drawableRight="@drawable/ic_animate_dead"
+            android:gravity="start|center"
+            android:paddingLeft="10dp"
+            android:text="Animate Dead"
+            android:textAllCaps="false"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/banishment"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/custom_button_3"
+            android:drawableRight="@drawable/ic_banishment"
+            android:gravity="start|center"
+            android:paddingLeft="10dp"
+            android:text="Banishment"
+            android:textAllCaps="false"
+            android:textColor="#0d47a1"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bless"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/custom_button_3"
+            android:drawableRight="@drawable/ic_bless"
+            android:gravity="start|center"
+            android:paddingLeft="10dp"
+            android:text="Bless"
+            android:textAllCaps="false"
+            android:textColor="#EC9119"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/catapult"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="420dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/custom_button_3"
+            android:drawableRight="@drawable/ic_catapult"
+            android:gravity="start|center"
+            android:paddingLeft="10dp"
+            android:text="Catapult"
+            android:textAllCaps="false"
+            android:textColor="#613D0D"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/charmPerson"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="480dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/custom_button_3"
+            android:drawableRight="@drawable/ic_charm_person"
+            android:gravity="start|center"
+            android:paddingLeft="10dp"
+            android:text="Charm Person"
+            android:textAllCaps="false"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/darkVision"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="540dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/custom_button_3"
+            android:drawableRight="@drawable/ic_dark_vision"
+            android:gravity="start|center"
+            android:paddingLeft="10dp"
+            android:text="Darkvision"
+            android:textAllCaps="false"
+            android:textColor="@color/purple_700"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/earthquake"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="600dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/custom_button_3"
+            android:drawableRight="@drawable/ic_earthquake"
+            android:gravity="start|center"
+            android:paddingLeft="10dp"
+            android:text="Earthquake"
+            android:textAllCaps="false"
+            android:textColor="#503108"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/featherFall"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="660dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/custom_button_3"
+            android:drawableRight="@drawable/ic_feather_fall"
+            android:gravity="start|center"
+            android:paddingLeft="10dp"
+            android:text="Feather Fall"
+            android:textAllCaps="false"
+            android:textColor="#00BCD4"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/fireBall"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="720dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/custom_button_3"
+            android:drawableRight="@drawable/ic_fireball"
+            android:gravity="start|center"
+            android:paddingLeft="10dp"
+            android:text="Fireball"
+            android:textAllCaps="false"
+            android:textColor="#ff6f00"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/gaseousForm"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="780dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/custom_button_3"
+            android:drawableRight="@drawable/ic_gaseous_form"
+            android:gravity="start|center"
+            android:paddingLeft="10dp"
+            android:text="Gaseous Form"
+            android:textAllCaps="false"
+            android:textColor="#558b2f"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/healSpell"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="840dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/custom_button_3"
+            android:drawableRight="@drawable/ic_heal"
+            android:gravity="start|center"
+            android:paddingLeft="10dp"
+            android:text="Heal"
+            android:textAllCaps="false"
+            android:textColor="#ffab00"
+            android:textSize="18sp"
+            android:layout_marginBottom="60dp"/>
+
+    </FrameLayout>
+
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "409760379837",
+    "project_id": "dungeons-and-dragons-spellbook",
+    "storage_bucket": "dungeons-and-dragons-spellbook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409760379837:android:43dd44abdcf34c229a18d4",
+        "android_client_info": {
+          "package_name": "com.example.dndspellbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409760379837-1r261dvjhtndv9jb9hivlism8mj4kfs0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGrzClS8bl5jNqF7mp9hD_JnWL8HEbsHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409760379837-1r261dvjhtndv9jb9hivlism8mj4kfs0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
